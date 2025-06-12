@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> exercise </title>
+<link rel="stylesheet" href="edition2.css" />
+
+</head>
+<!-- <body onload="alert('page loaded')"> -->
+<body>
+		<h1> welcome to sabicoder </h1>
+		<p id="a"> my new page</p>
+	<p class="a"> my new page</p>
+	<p id="B"> my new page</p>
+	<button id="see">  click here </button>
+
+	<ul id = "list">
+		<li  id="be"> item 1 </li>
+		<li id="me"> item 3 </li>
+	</ul>
+
+	<button onclick="alert('button clicked')"> click me </button>
+	<button ondblclick="alert('button double clicked')"> click me </button>
+
+	<div onmouseover="this.style.backgroundColor='yellow'"> hoverme </div>
+	<div onmouseout="this.style.backgroundColor='red'"> hoverme </div>
+
+	<input type="text" onkeydown="console.log('key down:'+ event.key)">
+
+	<form onsubmit="alert('form submitted!'); return false;">
+		<input type="text" required>
+		<button type="submit">subit </button>
+		</form>
+
+
+		<form reset="alert('form submitted!'); return false;">
+		<input type="text" required>
+		<button type="reset">reset </button>
+		</form>
+
+		<input type="text" onfocus="this.style.backgroundColor='yellow'">
+
+		<input type="text" onblur="this.style.backgroundColor='blue'">
+
+
+		<div style="height: 1000px;">
+			<p> scroll to see the effect.</p>
+		</div>
+
+		<button id="mybutton">click hhhh me!</button>
+			<p id="message"></p>
+
+			<button id="newbutton">click hhhh me!</button>
+	<!-- <ul id="no">
+		<li> item 1 </li>
+		<li> item 3 </li> -->
+
+   <script type="text/javascript" src="day1.js"></script>
+   <!-- <script> window.onscroll= function() {
+	console.log  ('page scrolled');
+   }
+	</script> -->
+	</body>
+</html>
